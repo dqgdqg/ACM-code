@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-int map[81][81],visit[81],Sum[81][81],U[5050],V[5050];
+int map[81][81],visit[5050],Sum[81][81],U[5050],V[5050];
 int hash[3]={0,2,0};
 int _ (int n,int s,int x,int y){
     if (x==y){
