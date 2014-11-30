@@ -13,6 +13,8 @@ int _ (int k,int p){
 	return (k>>(p-1))&1;
 }
 int main () {
+	freopen ("A.in","r",stdin);
+	freopen ("A.out","w",stdout);
 	int i,j,k,n,m,N,tx,ty,p,q,Ans,tmp,S;
 	char ch;
 	while ((cin>>n>>m,!(n==0&&m==0))){
